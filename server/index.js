@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
     res.send("Hello to memories API");
 });
 
-const CONNECTION_URL = 'mongodb+srv://Aniket:Aniket_1029@cluster0.t1uexqi.mongodb.net/?retryWrites=true&w=majority';
+// const CONNECTION_URL = 'mongodb+srv://Aniket:Aniket_1029@cluster0.t1uexqi.mongodb.net/?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.CONNECTION_URL)
